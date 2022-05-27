@@ -8,7 +8,7 @@ pub struct Entity {
     hand: Item,
 }
 
-pub struct Position {x: f64, y: f64}
+pub struct Position {pub x: f64, pub y: f64}
 
 enum EntityType {
     Player,
